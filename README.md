@@ -4,9 +4,9 @@
 
 This project is a team assignment for the "Compilers" course, offered in the 3rd semester of the 2021 academic year at the University of Piraeus, Department of Informatics. The project consists of three distinct tasks, each focusing on different aspects of compiler design and implementation. The tasks were developed in C/C++ and Flex, and were aimed at demonstrating skills in string generation, syntax analysis, and lexical analysis. The tasks are:
 
-**Thema 1:** String Generator
-**Thema 2:** 
-**Thema 3:** 
+- **Thema 1:** String Generator
+- **Thema 2:** Top-Down Parser
+- **Thema 3:** Flex-based Analyzer
 
 ## Course Information
 
@@ -155,6 +155,64 @@ You can follow the same instructions for thema 2.
      ```
 
 ## Usage Examples
+
+### Thema 1: String Generator
+
+When the user runs the executable file, they will be greeted with the following screen:
+
+![Alt text](./images/thema1_intro.png)
+
+**Note:** To make the empty symbol visible in the terminal, we decided to represent it as “^” instead of “ε” or a space.
+
+By pressing the Enter key, the generation algorithm begins, printing the steps in the terminal as it progresses until the string contains only terminal symbols.
+
+![Alt text](./images/thema1_example.png)
+
+### Thema 2: Top-Down Parser
+
+When the user runs the executable file, they will be greeted with the following screen:
+
+![Alt text](./images/thema2_intro.png)
+
+**Note:** To make the empty symbol visible in the terminal, we decided to represent it as “^” instead of “ε” or a space.
+
+The user is prompted to enter a string for recognition:
+
+Suppose the user inputs the string `((ba)*(a+b))`.
+
+![Alt text](./images/thema2_example.png)
+
+The program will then inform the user whether the string is accepted or not and will print the parse table and the corresponding parse tree.
+
+![Alt text](./images/thema2_example_2.png)
+
+To terminate the program, the user must press the Enter key.
+
+If the user enters an incorrect string:
+
+![Alt text](./images/thema2_example_wrong.png)
+
+Or if the user inputs a string with valid symbols but syntactically incorrect:
+
+![Alt text](./images/thema2_example_wrong_2.png)
+
+### Thema 3: Flex-based Analyzer
+
+When the file is executed, the following will appear in the terminal:
+
+![Alt text](./images/thema3_intro.png)
+
+If the user completely misinputs the data, the program will display a message prompting the user to enter another valid regular expression.
+
+![Alt text](./images/thema3_example_wrong.png)
+
+In the case where the user inputs two or more vertices with the same name.
+
+![Alt text](./images/thema3_example_1.png)
+
+If the user inputs correctly and the program executes as expected.
+
+![Alt text](./images/thema3_example_2.png)
 
 
 ## Contributors
