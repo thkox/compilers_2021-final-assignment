@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project was completed as part of the "Compilers" course, offered in the 3rd semester of the 2021 academic year at the University of Piraeus, Department of Informatics. The project consists of three distinct tasks, each focusing on different aspects of compiler design and implementation. The tasks were developed in C/C++ and Flex, and were aimed at demonstrating skills in string generation, syntax analysis, and lexical analysis. The tasks are:
+This project is a team assignment for the "Compilers" course, offered in the 3rd semester of the 2021 academic year at the University of Piraeus, Department of Informatics. The project consists of three distinct tasks, each focusing on different aspects of compiler design and implementation. The tasks were developed in C/C++ and Flex, and were aimed at demonstrating skills in string generation, syntax analysis, and lexical analysis. The tasks are:
 
 **Thema 1:** String Generator
 **Thema 2:** 
