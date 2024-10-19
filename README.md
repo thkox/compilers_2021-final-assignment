@@ -10,8 +10,8 @@ This project is a team assignment for the "Compilers" course, offered in the 3rd
 
 ## Course Information
 
-- **Institution:** University of Piraeus
-- **Department:** Department of Informatics
+- **Institution:** [University of Piraeus](https://www.unipi.gr/en/)
+- **Department:** [Department of Informatics](https://cs.unipi.gr/en/)
 - **Course:** Compilers (2021)
 - **Semester:** 3rd
 
